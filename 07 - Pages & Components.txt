@@ -1,0 +1,192 @@
+로그인 화면 = Login/
+    ㄴ 회원가입 이동 버튼
+    ㄴ 비밀번호 찾기 이동 버튼
+
+    sign-in.html
+
+회원가입 화면 = UserCreate/
+
+    sign-up.html
+
+탈퇴하기 화면 = UserDelete/
+    ㄴ 탈퇴하기 버튼
+    ㄴ 탈퇴 확인 버튼
+
+    contact-seller.html
+
+비밀번호 찾기 화면 = PasswordFind/
+    sign-in.html
+
+비밀번호 수정 화면 = PasswordUpdate/
+    password-settings.html
+
+공급자 프로필 수정 화면 = ProviderProfileUpdate
+    ㄴ 프로필 수정 이동 버튼
+    ㄴ 메뉴 생성 화면 이동 버튼
+
+    edit-profile.html
+    
+소비자 프로필 수정 화면 = ConsumerProfileUpdate
+    ㄴ 프로필 수정 이동 버튼
+
+    edit-profile.html
+
+사용자 마이페이지 화면 = ConsumerMyPage/
+    ㄴ 탈퇴이동 버튼
+    ㄴ 비밀번호 수정 화면 이동 버튼
+
+    account-buyer.html
+    
+공급자 마이페이지 화면 = ProviderMyPage/
+    ㄴ 주문 조회 화면 이동 버튼
+
+    account-seller.html
+
+소비자 마이페이지 화면 = ComsumerMyPage/
+    ㄴ 주문 조회 화면 이동 버튼
+    
+    account-buyer.html
+
+공급자 목록 화면 = ProviderListPage/
+    ㄴ 공급자 상세 화면 이동 버튼
+
+    index.html
+
+공급자 상세 화면 = ProviderDetailPage/
+    ㄴ 리뷰 화면 이동 버튼
+    ㄴ 장바구니 화면 이동 버튼
+    ㄴ 메뉴 장바구니 화면 이동 버튼
+
+    product-details.html
+
+
+메뉴 장바구니 화면 = ShoppingCartPage/
+    ㄴ 장바구니에 추가 버튼
+
+    shopping-cart.html
+
+메뉴 생성 화면 = MenuCreatePage/
+    contact-seller.html
+    
+메뉴 수정 화면 = MenuUpdatePage/
+    contact-seller.html
+
+리뷰 화면 => ReviewListPage/
+    ㄴ 리뷰 답글 달기 이동 버튼
+    ㄴ 리뷰 수정 이동 버튼
+    
+    blog-single.html
+
+리뷰 작성 화면 => ReviewCreatePage  / 
+    contact-seller.html
+
+리뷰 수정 화면 => ReviewUpdatePage/
+    ㄴ 리뷰 삭제 버튼
+
+    contact-seller.html
+
+리뷰 상세 화면 = ReviewDetailPage/
+
+    blog-single.html
+
+리뷰 답글 달기 화면 = ReviewReplyPage/
+    blog-single.html
+
+주문 조회 화면 = OrderListPage/
+    ㄴ 주문 내역 상태 수정 버튼
+    ㄴ 리뷰 보기 버튼
+    ㄴ 리뷰 작성 이동 버튼
+
+    shipping-information.html
+
+주문 통계 화면 = OrderStatistics/
+
+    tracking-order.html
+
+
+
+
+
+비밀번호 수정 폼
+    ㄴ 새로운 비밀번호: password
+    ㄴ 새로운 비밀번호 확인: password
+    비밀번호 변경 버튼
+    
+회원가입 폼
+    ㄴ 아이디: text
+    ㄴ 비밀번호: password
+    ㄴ 비밀번호 확인: password
+    ㄴ 이메일: email
+    ㄴ 닉네임: text
+    ㄴ 핸드폰: text
+    ㄴ 주소: text
+    ㄴ 상세주소: text
+    회원가입 버튼
+    
+프로필 수정 폼
+    ㄴ 닉네임: text
+    ㄴ 핸드폰: text
+    ㄴ 주소: text
+    프로필 수정 버튼
+
+메뉴 생성 폼
+    ㄴ 이름: text
+    ㄴ 가격: text (min: 0)
+    ㄴ 설명: textarea
+    메뉴 생성 버튼 
+    
+주문 폼
+    ㄴ 상세주소: text
+    ㄴ 요구사항: text
+    ㄴ 결제 수단: select
+    주문하기 버튼
+
+    shipping-details.html
+
+리뷰 작성 폼
+    ㄴ 내용: textarea
+    ㄴ 별점: select
+    리뷰 작성 버튼
+    
+공급자 프로필 수정 폼
+    ㄴ 소개: text
+    ㄴ 주소: text
+    ㄴ 영업 시작 시간: text
+    ㄴ 전화번호: text
+    ㄴ 배달가능지역: text
+    ㄴ 최소 배달팁: text
+    ㄴ 최대 배달팁: text
+    ㄴ 최소주문금액: text
+    공급자 프로필 수정 버튼
+
+비밀번호 찾기 폼
+    ㄴ 이메일: email
+    비밀번호 찾기 버튼
+
+비밀번호 검증 폼
+    ㄴ 비밀번호: password
+    비밀번호 검증 버튼
+
+로그인 폼
+    ㄴ 아이디: text
+    ㄴ 비밀번호: password
+    로그인 버튼
+
+리뷰 답글 폼
+    ㄴ 답글: textarea
+    리뷰 답글 달기 버튼
+
+주문 통계 조회 기간 설정 폼
+    ㄴ 시작일: date
+    ㄴ 종료일: date
+    주문 통계 보기 버튼
+
+리뷰 수정 폼
+    ㄴ 내용: textarea
+    리뷰 수정 버튼
+
+메뉴 생성 폼
+    ㄴ 이름: text
+    ㄴ 가격: text (min: 0)
+    ㄴ 설명: textarea
+    메뉴 생성 버튼
